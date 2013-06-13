@@ -1,0 +1,353 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Styles Author: @danielasalazar0*/
+::selection{
+	background: #FFF;
+	color:#000;
+}
+a{
+	-webkit-transition:all 0.2s ease;
+   -moz-transition:all 0.2s ease;
+   -o-transition:all 0.2s ease;
+   transition:all 0.2s ease;
+}
+body{
+	background: url('../images/bg.png') #555c68;
+	background-size: 100%;
+	font-family: 'Archivo Narrow', sans-serif;
+}	
+	/*Home*/
+	.home header{
+		border-bottom: 3px solid #e5e5e5;
+		border-top: 3px solid #e5e5e5;
+		color: #e5e5e5;
+		font-size: 36px;
+		margin: 10px auto 0;
+		padding: 5px 0;
+		text-align: center;
+		text-transform: uppercase;
+		width: 490px;
+	}
+	.home>section{
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 100%;
+	}
+		.home section h3{
+			background: url('../svg/figNegra.svg') no-repeat;
+			background-size: 150px;
+			color: #FFF;
+			font-size: 25px;
+			text-align: center;
+			height: 115px;
+			padding-top: 60px;
+			position: absolute;
+			width: 150px;
+			z-index: 90;
+		}
+			.home .direccion h3{
+				background-size: 200px;
+				height: 153px;
+				font-size: 35px;
+				left: 30%;
+				margin: -130px 0 0 0;
+				padding-top: 80px;
+				top: 50%;
+				width: 202px;
+			}
+	.home>section>div{
+		/*transform: rotate(-60deg);
+		transform-origin:21% 46%;
+		-webkit-transform: rotate(-60deg);
+		-webkit-transform-origin:21% 46%;*/
+		border-radius: 265px;
+		height: 520px;
+		margin: 0 auto;
+		position: relative;
+		width: 45%;
+	}
+		.home>section>div>section{
+			height: 210px;
+			width: 210px;
+		}
+			.home .queEs h3{
+				background-image: url('../svg/figRoja.svg');
+				height: 105px;
+				left: 42%;
+				margin-top: -110px;
+				padding-top: 70px;
+				top: 50%;
+			}
+				.home section.select h3:after{
+					background: url('../svg/esquinaRoja.svg') no-repeat;
+					background-size: 30px;
+					content: '.';
+					color: #ff3f0e;
+					height: 30px;
+					margin-top: -45px;
+					position: absolute;
+					right: -15px;
+					top: 50%;
+					width: 30px;
+				}
+			.home .organizacion h3{
+				background-image: url('../svg/figAzul.svg');
+				bottom: 30px;
+				left: 24%;
+			}
+				.home section.organizacion.select h3:after{
+					background-image: url('../svg/esquinaAzul.svg');
+					color: #01d8c8;
+				}
+			.home .tics h3{
+				background-image: url('../svg/figAmarillo.svg');
+				bottom: 30px;
+				left: -50px;
+			}
+				.home section.tics.select h3:after{
+					background-image: url('../svg/esquinaAmarillo.svg');
+					color: #eed600;
+				}
+		.home section>nav{
+			display: none;
+			background: #3D3D3D;
+			left: 377px;
+			position: absolute;
+			top: 37%;
+			width: 300px;
+		}
+		.home section.select>nav{
+			display: block;
+		}
+			.home section>nav a{
+				border-bottom: 1px solid rgba(255,255,255,0.2); 
+				color: #FFF;
+				display: block;
+				padding: 10px 10px 10px 20px;
+				text-decoration: none;
+			}
+			.home section>nav li:last-child a{
+				border: none;
+			}
+
+	footer{
+		background: #FFF;
+		bottom: 0;
+		padding: 5px 0 0;
+		position: absolute;
+		width: 100%;
+		box-shadow: 0 0 3px rgba(0,0,0,0.8);
+		-ms-box-shadow: 0 0 3px rgba(0,0,0,0.8);
+		-moz-box-shadow: 0 0 3px rgba(0,0,0,0.8);
+		-o-box-shadow: 0 0 3px rgba(0,0,0,0.8);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.8);
+	}
+		footer>a{
+			margin: 0 20px 0 10%;
+		}
+		footer>a:last-child{
+			float: right;
+			margin: 10px 10% 0 0;
+		}
+	/*Content Page*/
+	.page header{
+		background: #000;
+		color: #FFF;
+		overflow: hidden;
+		padding: 10px 1%;
+		position: fixed;
+		width: 98%;
+	}
+		.page header h1{
+			float: right;
+			font-size: 14px;
+			margin-top: 5px;
+			text-transform: uppercase;
+		}
+		.page header h2{
+			background: url('../svg/figGris.svg') no-repeat;
+			background-size: 20px;
+			float: left;
+			font-size: 22px;
+			padding-left: 30px;
+		}
+	.page .navigation{
+		background: #3D3D3D;
+		height: 98%;
+		left: 0;
+		position: fixed;
+		top: 42px;
+		min-width: 270px;
+		width: 20%;
+	}
+		.page .navigation section{
+			margin-bottom: 1px;
+		}
+			.page .navigation section h3,
+			.page .navigation section a{
+				color: #aeaeae;
+				display: block;
+				padding: 5px 10px 5px 40px;
+				text-decoration: none;
+			}
+			.page .navigation section h3,
+			.page .navigation section li>a{
+				background: url('../svg/figRoja.svg') 14px 6px #333 no-repeat;
+				background-size: 12px;
+			}
+			.page .navigation section.organizacion h3{
+				background-image: url('../svg/figAzul.svg');
+			}
+			.page .navigation section.tics h3{
+				background-image: url('../svg/figAmarillo.svg');
+			}
+				.page .navigation section h3 a{
+					padding: 0;
+				}
+			.page .navigation section nav{
+				display: none;
+			}
+			.page .navigation section.activo nav{
+				display: block;
+			}
+			.page .navigation section li{
+				position: relative;
+			}
+				.page .navigation section li.btnSelect a:after{
+					background: url('../svg/esquina.svg') no-repeat;
+					background-size: 30px;
+					content: '.';
+					color: #3D3D3D;
+					height: 30px;
+					margin-top: -15px;
+					position: absolute;
+					right: -15px;
+					top: 50%;
+					width: 30px;
+				}
+				.page .navigation section li>a{
+					background-color: #3D3D3D;
+					background-image: url('../svg/figGris.svg');
+				}
+			.page .navigation section.queEs li.btnSelect a,
+			.page .navigation section a:hover,
+			.home section.queEs>nav a:hover{
+				color: #ff3f0e;
+			}
+			.page .navigation section.organizacion li.btnSelect a,
+			.page .navigation section.organizacion a:hover,
+			.home section.organizacion>nav a:hover{
+				color: #01d8c8;
+			}
+			.page .navigation section.tics li.btnSelect a,
+			.page .navigation section.tics a:hover,
+			.home section.tics>nav a:hover{
+				color: #eed600;
+			}
+				.page .navigation section.tics li:first-child,
+				.page .navigation section.tics li:nth-child(7){
+					color: #aeaeae;
+					padding: 10px;
+					text-transform: uppercase;
+				}
+	.page .content{
+		height: 520px;
+		margin-left: 310px;
+		overflow: hidden;
+		overflow-y: visible;
+		padding-top: 50px;
+		position: relative;
+		top: 50px;
+		width: 70%;
+	}
+		.page .content img{
+			display: block;
+			width: 100%;
+		}
+		.page .content article{
+			background: #FFF;
+			background: rgba(255,255,255,0.6);
+			padding: 20px;
+		}
+			.page .content article p{
+				margin-bottom: 10px;
+			}
+
+	.page .content h3{
+		background: url('../svg/figRoja.svg') no-repeat;
+		background-size: 100%;
+		color: #FFF;
+		height: 117px;
+		font-size: 30px;
+		padding-top: 67px;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 154px;
+	}
+		.page article h1{
+			color: #ff3f0e;
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+	.page.organizacion .content h3{
+		background-image: url('../svg/figAzul.svg');
+		padding-top: 60px;
+	}
+		.page.organizacion article h1{
+			color: #32b5aa;
+		}
+	.page.tics .content h3{
+		background-image: url('../svg/figAmarillo.svg');
+		padding-top: 60px;
+	}
+		.page.tics article h1{
+			color: #aa950d;
+		}
