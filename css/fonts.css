@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'ANB';
+    src: url('../webfonts/anb.eot');
+    src: url('../webfonts/anb.eot?#iefix') format('embedded-opentype'),
+		 url('../webfonts/anb.woff') format('woff'),
+		 url('../webfonts/anb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ANBI';
+    src: url('../webfonts/anbi.eot');
+    src: url('../webfonts/anbi.eot?#iefix') format('embedded-opentype'),
+		 url('../webfonts/anbi.woff') format('woff'),
+		 url('../webfonts/anbi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ANI';
+    src: url('../webfonts/ani.eot');
+    src: url('../webfonts/ani.eot?#iefix') format('embedded-opentype'),
+		 url('../webfonts/ani.woff') format('woff'),
+		 url('../webfonts/ani.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AN';
+    src: url('../webfonts/an.eot');
+    src: url('../webfonts/an.eot?#iefix') format('embedded-opentype'),
+		 url('../webfonts/an.woff') format('woff'),
+		 url('../webfonts/an.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
