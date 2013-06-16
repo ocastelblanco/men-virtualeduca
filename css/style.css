@@ -249,6 +249,8 @@ footer>a:last-child{
 .page .navigation section li>a{
 	background: url('../svg/figRoja.svg') 14px 6px #333 no-repeat;
 	background-size: 12px;
+	font-size: 25px;
+	min-height: 35px;
 }
 .page .navigation section.organizacion h3{
 	background-image: url('../svg/figAzul.svg');
@@ -283,6 +285,9 @@ footer>a:last-child{
 .page .navigation section li>a{
 	background-color: #3D3D3D;
 	background-image: url('../svg/figGris.svg');
+	/*  Agrandamiento de enlaces    */
+	font-size: 20px;
+	min-height: 35px;
 }
 .page .navigation section.queEs li.btnSelect a,
 .page .navigation section a:hover,
@@ -301,12 +306,13 @@ footer>a:last-child{
 }
 .page .navigation section.tics li:first-child,
 .page .navigation section.tics li:nth-child(6){
-	color: #aeaeae;
+	color: #eed600;
 	padding: 10px;
 	text-transform: uppercase;
+	font-size: 20px;
 }
 .page .content{
-	height: 520px;
+	height: 600px;
 	margin-left: 310px;
 	overflow: hidden;
 	overflow-y: visible;
