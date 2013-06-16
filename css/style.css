@@ -215,7 +215,8 @@ footer>a:last-child{
 .page header h1{
 	/* float: right; */
 	text-align: center;
-	font-size: 14px;
+	/*  Agrandamiento de enlaces    */
+	font-size: 17px;
 	margin-top: 5px;
 	text-transform: uppercase;
 }
@@ -234,7 +235,6 @@ footer>a:last-child{
 	top: 42px;
 	min-width: 270px;
 	width: 20%;
-	overflow-y: visible;
 }
 .page .navigation section{
 	margin-bottom: 1px;
@@ -250,8 +250,8 @@ footer>a:last-child{
 .page .navigation section li>a{
 	background: url('../svg/figRoja.svg') 14px 6px #333 no-repeat;
 	background-size: 12px;
-	font-size: 25px;
-	min-height: 35px;
+	/*  Agrandamiento de enlaces    */
+	font-size: 26px;
 }
 .page .navigation section.organizacion h3{
 	background-image: url('../svg/figAzul.svg');
@@ -288,7 +288,6 @@ footer>a:last-child{
 	background-image: url('../svg/figGris.svg');
 	/*  Agrandamiento de enlaces    */
 	font-size: 20px;
-	min-height: 35px;
 }
 .page .navigation section.queEs li.btnSelect a,
 .page .navigation section a:hover,
@@ -310,7 +309,8 @@ footer>a:last-child{
 	color: #eed600;
 	padding: 10px;
 	text-transform: uppercase;
-	font-size: 20px;
+	/*  Agrandamiento de enlaces    */
+	font-size: 16px;
 }
 .page .content{
 	height: 600px;
