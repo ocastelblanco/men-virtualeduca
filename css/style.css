@@ -220,143 +220,143 @@ footer>a:last-child{
 	text-transform: uppercase;
 }
 .page header h2{
-background: url('../svg/figGris.svg') no-repeat;
-background-size: 20px;
-float: left;
-font-size: 22px;
-padding-left: 30px;
+	background: url('../svg/figGris.svg') no-repeat;
+	background-size: 20px;
+	float: left;
+	font-size: 22px;
+	padding-left: 30px;
 }
 .page .navigation{
-background: #3D3D3D;
-height: 98%;
-left: 0;
-position: fixed;
-top: 42px;
-min-width: 270px;
-width: 20%;
+	background: #3D3D3D;
+	height: 98%;
+	left: 0;
+	position: fixed;
+	top: 42px;
+	min-width: 270px;
+	width: 20%;
 }
 .page .navigation section{
-margin-bottom: 1px;
+	margin-bottom: 1px;
 }
 .page .navigation section h3,
 .page .navigation section a{
-color: #aeaeae;
-display: block;
-padding: 5px 10px 5px 40px;
-text-decoration: none;
+	color: #aeaeae;
+	display: block;
+	padding: 5px 10px 5px 40px;
+	text-decoration: none;
 }
 .page .navigation section h3,
 .page .navigation section li>a{
-background: url('../svg/figRoja.svg') 14px 6px #333 no-repeat;
-background-size: 12px;
+	background: url('../svg/figRoja.svg') 14px 6px #333 no-repeat;
+	background-size: 12px;
 }
 .page .navigation section.organizacion h3{
-background-image: url('../svg/figAzul.svg');
+	background-image: url('../svg/figAzul.svg');
 }
 .page .navigation section.tics h3{
-background-image: url('../svg/figAmarillo.svg');
+	background-image: url('../svg/figAmarillo.svg');
 }
 .page .navigation section h3 a{
-padding: 0;
+	padding: 0;
 }
 .page .navigation section nav{
-display: none;
+	display: none;
 }
 .page .navigation section.activo nav{
-display: block;
+	display: block;
 }
 .page .navigation section li{
-position: relative;
+	position: relative;
 }
 .page .navigation section li.btnSelect a:after{
-background: url('../svg/esquina.svg') no-repeat;
-background-size: 30px;
-content: '.';
-color: #3D3D3D;
-height: 30px;
-margin-top: -15px;
-position: absolute;
-right: -15px;
-top: 50%;
-width: 30px;
+	background: url('../svg/esquina.svg') no-repeat;
+	background-size: 30px;
+	content: '.';
+	color: #3D3D3D;
+	height: 30px;
+	margin-top: -15px;
+	position: absolute;
+	right: -15px;
+	top: 50%;
+	width: 30px;
 }
 .page .navigation section li>a{
-background-color: #3D3D3D;
-background-image: url('../svg/figGris.svg');
+	background-color: #3D3D3D;
+	background-image: url('../svg/figGris.svg');
 }
 .page .navigation section.queEs li.btnSelect a,
 .page .navigation section a:hover,
 .home section.queEs>nav a:hover{
-color: #ff3f0e;
+	color: #ff3f0e;
 }
 .page .navigation section.organizacion li.btnSelect a,
 .page .navigation section.organizacion a:hover,
 .home section.organizacion>nav a:hover{
-color: #01d8c8;
+	color: #01d8c8;
 }
 .page .navigation section.tics li.btnSelect a,
 .page .navigation section.tics a:hover,
 .home section.tics>nav a:hover{
-color: #eed600;
+	color: #eed600;
 }
 .page .navigation section.tics li:first-child,
-.page .navigation section.tics li:nth-child(7){
-color: #aeaeae;
-padding: 10px;
-text-transform: uppercase;
+.page .navigation section.tics li:nth-child(6){
+	color: #aeaeae;
+	padding: 10px;
+	text-transform: uppercase;
 }
 .page .content{
-height: 520px;
-margin-left: 310px;
-overflow: hidden;
-overflow-y: visible;
-padding-top: 50px;
-position: relative;
-top: 50px;
-width: 70%;
+	height: 520px;
+	margin-left: 310px;
+	overflow: hidden;
+	overflow-y: visible;
+	padding-top: 50px;
+	position: relative;
+	top: 50px;
+	width: 70%;
 }
 .page .content img{
-display: block;
-width: 100%;
+	display: block;
+	width: 100%;
 }
 .page .content article{
-background: #FFF;
-background: rgba(255,255,255,0.6);
-padding: 20px;
+	background: #FFF;
+	background: rgba(255,255,255,0.6);
+	padding: 20px;
 }
 .page .content article p{
-margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .page .content h3{
-background: url('../svg/figRoja.svg') no-repeat;
-background-size: 100%;
-color: #FFF;
-height: 117px;
-font-size: 30px;
-padding-top: 67px;
-position: absolute;
-text-align: center;
-top: 0;
-width: 154px;
+	background: url('../svg/figRoja.svg') no-repeat;
+	background-size: 100%;
+	color: #FFF;
+	height: 117px;
+	font-size: 30px;
+	padding-top: 67px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 154px;
 }
 .page article h1{
-color: #ff3f0e;
-font-size: 24px;
-font-weight: bold;
-margin-bottom: 10px;
+	color: #ff3f0e;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 .page.organizacion .content h3{
-background-image: url('../svg/figAzul.svg');
-padding-top: 60px;
+	background-image: url('../svg/figAzul.svg');
+	padding-top: 60px;
 }
 .page.organizacion article h1{
-color: #32b5aa;
+	color: #32b5aa;
 }
 .page.tics .content h3{
-background-image: url('../svg/figAmarillo.svg');
-padding-top: 60px;
+	background-image: url('../svg/figAmarillo.svg');
+	padding-top: 60px;
 }
 .page.tics article h1{
-color: #aa950d;
+	color: #aa950d;
 }

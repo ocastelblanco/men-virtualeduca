@@ -10,14 +10,33 @@
 	<preference name="orientation" value="landscape" />
 	<preference name="target-device" value="tablet" />
 	<preference name="fullscreen" value="true" />
+	
 	<icon src="icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
 	<gap:splash src="splash/ldpi.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="splash/mdpi.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="splash/hdpi.png" gap:platform="android" gap:density="hdpi" />
 	<gap:splash src="splash/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+ 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />   
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />   
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
 	
     <name>Dirección de Calidad</name>
 
