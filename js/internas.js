@@ -27,13 +27,14 @@ $(function() {
     });
 });
 function cargaContenido(id) {
-	console.log('El vínculo elegido es '+id);
+	insertarContenido(id);
 }
 function insertarContenido(destino) {
 	var nombre = destino+'.html .content';
 	$('.content').parent().load(nombre, function(){
 		$('.content').hide();
 		$('.content').show('drop', {direction: 'up'}, 750);
+		window.mySwipe = new Swipe(document.getElementById('slider'), {auto: 3000});
 	});
 }
 $.extend({

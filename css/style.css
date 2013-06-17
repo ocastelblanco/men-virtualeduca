@@ -367,3 +367,54 @@ footer>a:last-child{
 .page.tics article h1{
 	color: #aa950d;
 }
+/* Estilos adicionales a los de Liz */
+.page .content article ul li {
+	list-style: url('../img/vineta.png') inside;
+	padding: 5px 0px 5px 10px;
+}
+.page .content article h4 {
+	font-weight: 700;
+}
+.page figure figcaption {
+	font-size: 12px;
+	text-align: right;
+	margin-top: -34px;
+	margin-right: 10px;
+	text-shadow: #fff 1px 1px 1px, #fff 1px 1px 1px; 
+}
+.page .content.organizacion h3 {
+	background-image: url('../svg/figAzul.svg');
+}
+.page .content.organizacion article h1 {
+	color: #32b5aa;
+}
+.page .content.tics h3 {
+	background-image: url('../svg/figAmarillo.svg');
+}
+.page .content.tics article h1 {
+	color: #aa950d;
+}
+.page .content #slider img {
+	width: auto;
+}
+.page .content #slidercaption {
+	width: 100%;
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	margin-top: 5px;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
