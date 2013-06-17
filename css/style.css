@@ -420,6 +420,9 @@ footer>a:last-child{
   position: relative;
 }
 #imagen {
-  width:auto;
+  width: auto;
   margin: 0 auto;
+}
+strong {
+	font-weight: 700;
 }
