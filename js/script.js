@@ -12,22 +12,24 @@ $(document).ready(function(){
 */
 var pos = 1;
 $(function() {
-	// Posiciones iniciales de los hexágonos
-	$('.queEs h3').position({
-		of: $('.direccion h3'),
-		my: 'left center',
-		at: 'right+15 center+40'
-	});
-	$('.organizacion h3').position({
-		of: $('.direccion h3'),
-		my: 'center top',
-		at: 'right bottom'
-	});
-	$('.tics h3').position({
-		of: $('.direccion h3'),
-		my: 'center top',
-		at: 'left bottom'
-	});
+	setTimeout(function() {
+		// Posiciones iniciales de los hexágonos
+		$('.queEs h3').position({
+			of: $('.direccion h3'),
+			my: 'left center',
+			at: 'right+15 center+0'
+		});
+		$('.organizacion h3').position({
+			of: $('.direccion h3'),
+			my: 'center top',
+			at: 'right bottom-40'
+		});
+		$('.tics h3').position({
+			of: $('.direccion h3'),
+			my: 'center top',
+			at: 'left bottom-40'
+		});
+	}, 500);
 	// Métodos interactivos
 	$('.queEs h3').click(function(e) {
 		if (pos == 1) {
@@ -217,3 +219,18 @@ function despliega() {
 		}
 	}
 }
+$.extend({
+  getUrlVars: function(){
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++){
+      hash = hashes[i].split('=');
+      vars.push(hash[0]);
+      vars[hash[0]] = hash[1];
+    }
+    return vars;
+  },
+  getUrlVar: function(name){
+    return $.getUrlVars()[name];
+  }
+});

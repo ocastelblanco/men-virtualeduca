@@ -25,6 +25,28 @@ $(function() {
 		$('.navigation section.activo').removeClass('activo', 500);
 		$(this).addClass('activo', 500);
     });
+	    // Initialize the activity check
+    $.activity.init({
+        // Set interval check to every 5 seconds
+        interval: 1000*5,
+        intervalFn: function(info){
+            console.log('Interval Check - Last Active:', info.lastActive, ', Difference in milliseconds to current time:', info.diff);
+        },
+        // Set inactive check to every 15 seconds
+        inactive: 1000*5*12,
+        inactiveFn: function(info){
+            console.warn('Inactive Triggered - Last Active:', info.lastActive, ', Difference in milliseconds to current time:', info.diff);
+			window.location.href = "index.html";
+        }
+    });
+
+    // Either reactivate, or update the current timestamp when user clicks on the page
+    $(document).click(function(){
+        if ( $.activity.isActive() )
+            $.activity.update();
+        else
+            $.activity.reActivate();
+    });
 });
 function cargaContenido(id) {
 	insertarContenido(id);
