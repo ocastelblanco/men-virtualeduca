@@ -418,3 +418,7 @@ footer>a:last-child{
   width:100%;
   position: relative;
 }
+#imagen {
+  width:auto;
+  margin: 0 auto;
+}
