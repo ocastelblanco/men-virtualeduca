@@ -57,9 +57,7 @@ function insertarContenido(destino) {
 		$('.content').hide();
 		$('.content').show('drop', {direction: 'up'}, 750);
 		window.mySwipe = new Swipe(document.getElementById('slider'), {auto: 3000});
-		var anchoCont = (939-$('.swipe-wrap img').width())/2;
-		var margenSlider = anchoCont+'px';
-		$('#slider').css('margin-left', margenSlider);
+		$('#slider').css('margin-left', '100px');
 	});
 }
 $.extend({
