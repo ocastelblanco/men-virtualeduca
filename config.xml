@@ -5,7 +5,7 @@
         versionCode="11" 
         version   = "1.0.1">
 
-	<preference name="phonegap-version" value="2.7.0" />
+	<preference name="phonegap-version" value="2.9.0" />
 	<preference name="orientation" value="landscape" />
 	<preference name="target-device" value="tablet" />
 	<preference name="fullscreen" value="true" />
